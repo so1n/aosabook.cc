@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://blog.aosabook.cc/2018/07/26/Modern-Technologies-for-Modern-Web-Applications/</loc>
+    
+    <lastmod>2018-08-02T07:34:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/2018/08/02/Building-Cloud-Applications-with-Microserivce-Architecture/</loc>
+    
+    <lastmod>2018-08-02T07:27:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/2018/06/19/Architecting-a-Distributed-File-System-with-Microservices/</loc>
+    
+    <lastmod>2018-07-26T07:00:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/2018/07/26/hello-world/</loc>
+    
+    <lastmod>2018-07-26T07:00:29.000Z</lastmod>
+    
+  </url>
+  
+</urlset>
