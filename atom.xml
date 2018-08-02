@@ -35,9 +35,9 @@
     <link href="http://blog.aosabook.cc/2018/07/26/Modern-Technologies-for-Modern-Web-Applications/"/>
     <id>http://blog.aosabook.cc/2018/07/26/Modern-Technologies-for-Modern-Web-Applications/</id>
     <published>2018-07-26T07:47:59.000Z</published>
-    <updated>2018-08-02T07:34:52.000Z</updated>
+    <updated>2018-08-02T07:46:28.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Modern-Web-Application"><a href="#Modern-Web-Application" class="headerlink" title="Modern Web Application"></a>Modern Web Application</h1><p>当前的企业信息系统一般采用Web技术进行设计和开发，如图所示。</p><img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/webapp.png"><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h1 id="架构"><a href="#架构" class="headerlink" title="架构"></a>架构</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="Modern-Web-Application"><a href="#Modern-Web-Application" class="headerlink" title="Modern Web Application"></a>Modern Web Application</h1><p>当前的企业信息系统一般采用Web技术进行设计和开发，如图所示。</p><img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/webapp.png"><p>这是github上的某一位普通用户开发的他所在企业的Web应用的一个简化版本，代码位于<a href="https://github.com/DimitriZhao/sinosteel" target="_blank" rel="noopener">DimitriZhao/sinosteel</a>这个git仓库。之所以从这个系统开始讲，是因为这个系统用到了当前Web应用开发的主流技术栈，包括应用框架、开发工具和管理流程等。</p><p>这个系统的总体架构如下。</p><img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/architecture.png"><p>本文讲会从Web应用的历史讲起，讲讲为什么现在的Web应用会发展到这样一种架构，并针对其中各项技术做简介，希望能让读者快速理解Web应用开发框架。</p><h2 id="历史：从HTML到Web应用"><a href="#历史：从HTML到Web应用" class="headerlink" title="历史：从HTML到Web应用"></a>历史：从HTML到Web应用</h2>]]></content>
     
     <summary type="html">
     
