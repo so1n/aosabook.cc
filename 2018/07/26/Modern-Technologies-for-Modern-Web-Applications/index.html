@@ -49,7 +49,14 @@
 </ol>
 <p>因此这样一来，你可以找三个人分别来干这三件事。这实际上是软件技术中一直孜孜以求的一个模板，叫做<a href="https://zh.wikipedia.org/wiki/%E5%85%B3%E6%B3%A8%E7%82%B9%E5%88%86%E7%A6%BB" target="_blank" rel="noopener">“关注分离”(Separation of concerns，SOC)</a>。</p>
 <p>下面开始进入正题：Spring MVC。</p>
-<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2></div></article></div></main><footer><div class="paginator"><a class="prev" href="/2018/08/02/Building-Cloud-Applications-with-Microserivce-Architecture/">prev</a><a class="next" href="/2018/07/26/hello-world/">next</a></div><div class="copyright"><p>&copy; 2018 <a href="https://blog.aosabook.cc">Chun</a><br>Powered by <a href="https://hexo.io/" rel="noreferrer" target="_blank">Hexo</a></p></div></footer></div></div><script>var _gaq = _gaq || [];
+<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><p>Spring是一个开源框架，为简化企业级应用开发和运行管理而生。早期Spring指的是一个IoC(DI)和AOP容器框架，叫Spring Framework。关于IoC（Inversion of Control，中文叫“反转控制”）、DI（Dependency Injection，中文叫“依赖注入”）和AOP（Aspect-Oriented Programming，中文叫“面向切面编程”）等概念在后面逐步展开介绍。这些都是非常重要的软件技术概念。<br>Spring目前成为了应用最广泛的Java开发框架，甚至连早期特别红火的EJB技术也基本完全没落了，主流的企业级应用十之八九都以Spring为平台，这主要是由于Spring在此核心框架基础之上衍生出了<a href="http://spring.io/projects" target="_blank" rel="noopener">很多项目</a>来提供面向应用开发的完整框架、工具等，被称之为”Spring全家桶”。</p>
+<img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/spring.png">
+<h2 id="Spring-MVC"><a href="#Spring-MVC" class="headerlink" title="Spring MVC"></a>Spring MVC</h2><p>Spring在其核心框架Spring Framework中提供了Web应用开发支持。</p>
+<img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/springframework.png">
+<p>Spring的Web支持开发MVC模式的Web应用。具体而言，Spring预先实现了一个特定的Servlet叫做<code>DispatcherServlet</code>，这个Servlet会根据用户的配置，将不同的请求（URL）转发给不同的代码（Controller）进行处理，Controller处理完得到结果将结果渲染到一个页面中返回给用户。</p>
+<img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/springmvc.png">
+<p>具体的原理知道即可，我们可以看一个具体例子。</p>
+</div></article></div></main><footer><div class="paginator"><a class="prev" href="/2018/08/02/Building-Cloud-Applications-with-Microserivce-Architecture/">prev</a><a class="next" href="/2018/07/26/hello-world/">next</a></div><div class="copyright"><p>&copy; 2018 <a href="https://blog.aosabook.cc">Chun</a><br>Powered by <a href="https://hexo.io/" rel="noreferrer" target="_blank">Hexo</a></p></div></footer></div></div><script>var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-123286596-2']);
 _gaq.push(['_trackPageview']);
 
