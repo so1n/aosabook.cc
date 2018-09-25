@@ -2,6 +2,188 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.aosabook.cc/2018/09/24/Tutorial-Read-a-React-App/</loc>
+    
+    <lastmod>2018-09-25T05:32:53.822Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Wesnoth.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.821Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/ZeroMQ.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.821Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Vistrails.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.820Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Violet.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.820Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/SocialCalc.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.819Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Twisted.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.819Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Sendmail_2.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.818Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Sendmail.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.818Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/SQLAlchemy.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.817Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Pypy_2.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.817Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Selenium.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.817Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/NoSQL.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.816Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Pypy.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.816Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Nginx.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.815Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Moodle.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.814Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/MediaWiki.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.814Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Matplotlib_2.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.813Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Matplotlib.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.813Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/LLVM.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.812Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Mailman.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.812Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Jitsi.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.811Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Git.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.811Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Graphite.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.811Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/FreeRTOS.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.810Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.aosabook.cc/Cmake.html</loc>
+    
+    <lastmod>2018-09-25T05:32:53.810Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.aosabook.cc/2018/09/19/Tutorial-Intro-to-React/</loc>
     
     <lastmod>2018-09-19T09:02:49.000Z</lastmod>
