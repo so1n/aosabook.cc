@@ -82,17 +82,17 @@
 <h2 id="Redux简介"><a href="#Redux简介" class="headerlink" title="Redux简介"></a>Redux简介</h2><p>Redux作为一个前端架构，它需要与React搭配应用。那么首先需要明确一个问题：为什么要用Redux？这个问题具体化一点就是：React有哪些不足需要Redux来解决？</p>
 <p>当我们使用React构建应用时，如前文所叙述，组件之间实际被组织为一颗DOM树，组件之间的数据可以通过props参数来传递。而这意味着数据的流动是单向的由父组件传递给子组件。如果需要子组件向父组件传递数据，那么父组件需要涉及一个回调函数并借助props传递给需要向自己传递数据的子组件。</p>
 <p>以下例子是一个Counter（本案例来自<a href="https://daveceddia.com/how-does-redux-work/" target="_blank" rel="noopener">这篇教程</a>，有兴趣的读者可以自行阅读），每当点击加号数字就加一，点击减号数字就减一：</p>
-<img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/redux-example-counter.png">
+<img src="http://qiniu-aosabook.nemoworks.info//images/webtech/redux-example-counter.png">
 <p><code>count</code>是存储在<code>App</code>的state中的，它会作为一个prop被传递下去</p>
-<img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/redux-example-easyprops.png">
+<img src="http://qiniu-aosabook.nemoworks.info//images/webtech/redux-example-easyprops.png">
 <p>为了把数据从子组件传回父组件，需要从App向下传递一个回调函数。</p>
-<img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/redux-example-callback.png">
+<img src="http://qiniu-aosabook.nemoworks.info//images/webtech/redux-example-callback.png">
 <p>这种做法在简单的应用中没有问题，但对类似于下图的场景，用于数据传递的代码会变得十分复杂：</p>
-<img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/redux-example-tweeter.png">
+<img src="http://qiniu-aosabook.nemoworks.info//images/webtech/redux-example-tweeter.png">
 <p>图中有三处用到了用户的数据，而它们都被嵌套在多层组件之中。假设用户数据名为<code>user</code>，顶层组件名为<code>App</code>，那么<code>App</code>需要进行如下的props传递：</p>
-<img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/redux-example-noodles.png">
+<img src="http://qiniu-aosabook.nemoworks.info//images/webtech/redux-example-noodles.png">
 <p>可见，即便用不到<code>user</code>数据的组件，如果子组件需要<code>user</code>属性，则同样需要继承props，就像针线一样一节一节把树的节点串联起来。这样的做法十分繁琐，不仅无端增加了代码量，而且使代码变得难以理解。而Redux就是为了解决这种情况产生的。Redux把所有的数据都组织在store中，所有的组件通过connect方法来访问store中的数据，依次解决数据沿着DOM树传递时可能产生的窘境。同样是上面的例子，使用Redux后，数据流动如下：</p>
-<img src="http://pctozmwcv.bkt.clouddn.com//images/webtech/redux-example-reduxflow.png">
+<img src="http://qiniu-aosabook.nemoworks.info//images/webtech/redux-example-reduxflow.png">
 <p>Redux将应用的state管理在一个单一的store中。在某个组件需要使用时，你可以将state中被用到的部分抽取出来，并连接到该组件，作为该组件的props。它是你可与你把数据存入一个全局位置，并可以把其中的数据传入任何一个应用内部的组件。</p>
 <p><strong>注意</strong>：<code>state</code>和<code>store</code>通常可以互相替代使用，但实际上，<code>state</code>是数据，而<code>store</code>是数据存储的地方。</p>
 <p>下面我们会展示如何将之前的Counter例子，转换为使用Redux数据的应用。</p>
@@ -176,7 +176,7 @@
 <hr>
 <h2 id="什么是AntDesign"><a href="#什么是AntDesign" class="headerlink" title="什么是AntDesign"></a>什么是AntDesign</h2><p>Ant Design是一个UI 设计语言，是一套提炼和应用于企业级后台产品的交互语言和视觉体系。它提供了丰富的，可定制的组件。普通的网页都会包含JS，HTML，CSS三个元素，其中CSS是网页元素的风格配置文件，它定义了线条的粗细，表格的位置等，是美观问题的关键，并且难以与所有浏览器适配。使用Ant Design可以免除在UI组件的美观，适配等底层问题，而关注React等上层代码，从而大大提高开发效率。</p>
 <p>由于Ant Design提供了大量的Demo，并且有详实易读的官方的中文说明文档与教程，有需要的读者可以自行访问<a href="https://ant.design/docs/react/introduce-cn" target="_blank" rel="noopener">这里</a></p>
-</div></article></div></main><footer><div class="paginator"><a class="next" href="/2018/09/19/Tutorial-Intro-to-React/">next</a></div><div class="copyright"><p>&copy; 2018 <a href="https://blog.aosabook.cc">Chun</a><br>Powered by <a href="https://hexo.io/" rel="noreferrer" target="_blank">Hexo</a></p></div></footer></div></div><script>var _gaq = _gaq || [];
+</div></article></div></main><footer><div class="paginator"><a class="next" href="/2018/09/19/Tutorial-Intro-to-React/">next</a></div><div class="copyright"><p>&copy; 2018 - 2019 <a href="https://blog.aosabook.cc">Chun</a><br>Powered by <a href="https://hexo.io/" rel="noreferrer" target="_blank">Hexo</a></p></div></footer></div></div><script>var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-123286596-2']);
 _gaq.push(['_trackPageview']);
 
